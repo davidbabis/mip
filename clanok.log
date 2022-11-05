@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.28)  31 OCT 2022 20:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.28)  5 NOV 2022 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,12 +6,6 @@ entering extended mode
 (C:/Users/4mama/OneDrive/Dokumenty/GitHub/mip/clanok.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-04>
-(C:\Users\4mama\AppData\Local\Programs\MiKTeX\tex/latex/coursepaper\coursepaper
-.cls
-Document Class: coursepaper 2003/08/19 v2.0
-(C:\Users\4mama\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
 (C:\Users\4mama\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Users\4mama\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
@@ -28,7 +22,7 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-))
+)
 (C:\Users\4mama\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2022/06/26 3.77 The Babel package
 \babel@savecnt=\count193
@@ -313,27 +307,21 @@ Package hyperref Info: Link coloring OFF on input line 31.
 \@outlinefile=\write3
 \openout3 = `clanok.out'.
 
-LaTeX Font Info:    Trying to load font information for IL2+cmss on input line 
-34.
- (C:\Users\4mama\AppData\Local\Programs\MiKTeX\tex/cslatex/base\il2cmss.fd
-File: il2cmss.fd 1997/02/13 CsLaTeX font definitions
-)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 34.
-LaTeX Font Info:    Trying to load font information for IL2+cmtt on input line 
-34.
-(C:\Users\4mama\AppData\Local\Programs\MiKTeX\tex/cslatex/base\il2cmtt.fd
-File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
-)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 34.
+LaTeX Font Info:    Trying to load font information for IL2+cmtt on input line 
+34.
+ (C:\Users\4mama\AppData\Local\Programs\MiKTeX\tex/cslatex/base\il2cmtt.fd
+File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 34.
-
 
 LaTeX Warning: Reference `historia' on page 1 undefined on input line 42.
 
@@ -346,94 +334,12 @@ LaTeX Warning: Reference `zanre' on page 1 undefined on input line 43.
 
 LaTeX Warning: Reference `zaver' on page 1 undefined on input line 44.
 
-[1
 
-{C:/Users/4mama/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+LaTeX Warning: Reference `f:prva' on page 1 undefined on input line 49.
 
-LaTeX Warning: Reference `f:rozhod' on page 2 undefined on input line 61.
-
-<Schránka-15.jpg, id=22, 523.9575pt x 295.85532pt>
-File: Schránka-15.jpg Graphic file (type jpg)
-<use Schránka-15.jpg>
-Package pdftex.def Info: Schránka-15.jpg  used on input line 65.
-(pdftex.def)             Requested size: 261.9781pt x 147.92729pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 75.
+(Font)              <7> on input line 49.
 
-Underfull \vbox (badness 7238) has occurred while \output is active []
-
- [2 <C:/Users/4mama/OneDrive/Dokumenty/GitHub/mip/Schránka-15.jpg>]
-
-LaTeX Warning: Reference `zanre:adventure' on page 3 undefined on input line 77
-.
-
-
-LaTeX Warning: Reference `zanre:akcne' on page 3 undefined on input line 77.
-
-
-LaTeX Warning: Citation `Coplien:MPD' on page 3 undefined on input line 79.
-
-
-LaTeX Warning: Citation `Czarnecki:Staged' on page 3 undefined on input line 79
-.
-
-
-LaTeX Warning: Citation `Czarnecki:Progress' on page 3 undefined on input line 
-79.
-
-
-LaTeX Warning: Citation `PLP-Framework' on page 3 undefined on input line 79.
-
-[3]
-<Screenshot.jpg, id=52, 816.80156pt x 475.7775pt>
-File: Screenshot.jpg Graphic file (type jpg)
-<use Screenshot.jpg>
-Package pdftex.def Info: Screenshot.jpg  used on input line 103.
-(pdftex.def)             Requested size: 245.04236pt x 142.73434pt.
-<csgo.jpg, id=53, 1284.8pt x 722.7pt>
-File: csgo.jpg Graphic file (type jpg)
-<use csgo.jpg>
-Package pdftex.def Info: csgo.jpg  used on input line 125.
-(pdftex.def)             Requested size: 256.95544pt x 144.53743pt.
- [4 <C:/Users/4mama/OneDrive/Dokumenty/GitHub/mip/Screenshot.jpg>]
-<fortnite.jpg, id=61, 1927.2pt x 1084.05pt>
-File: fortnite.jpg Graphic file (type jpg)
-<use fortnite.jpg>
-Package pdftex.def Info: fortnite.jpg  used on input line 146.
-(pdftex.def)             Requested size: 289.06754pt x 162.60048pt.
- [5 <C:/Users/4mama/OneDrive/Dokumenty/GitHub/mip/csgo.jpg>]
-<minecraft.jpg, id=68, 1927.2pt x 1084.05pt>
-File: minecraft.jpg Graphic file (type jpg)
-<use minecraft.jpg>
-Package pdftex.def Info: minecraft.jpg  used on input line 167.
-(pdftex.def)             Requested size: 289.06754pt x 162.60048pt.
- [6 <C:/Users/4mama/OneDrive/Dokumenty/GitHub/mip/fortnite.jpg> <C:/Users/4mama
-/OneDrive/Dokumenty/GitHub/mip/minecraft.jpg>]
-<coc.jpg, id=76, 757.83125pt x 570.13pt>
-File: coc.jpg Graphic file (type jpg)
-<use coc.jpg>
-Package pdftex.def Info: coc.jpg  used on input line 186.
-(pdftex.def)             Requested size: 227.35112pt x 171.04031pt.
- [7 <C:/Users/4mama/OneDrive/Dokumenty/GitHub/mip/coc.jpg>]
-<ets.jpg, id=86, 1927.2pt x 1084.05pt>
-File: ets.jpg Graphic file (type jpg)
-<use ets.jpg>
-Package pdftex.def Info: ets.jpg  used on input line 211.
-(pdftex.def)             Requested size: 289.06754pt x 162.60048pt.
-<cs16.png, id=87, 422.57875pt x 119.44624pt>
-File: cs16.png Graphic file (type png)
-<use cs16.png>
-Package pdftex.def Info: cs16.png  used on input line 222.
-(pdftex.def)             Requested size: 338.06345pt x 95.55711pt.
-
-[8 <C:/Users/4mama/OneDrive/Dokumenty/GitHub/mip/ets.jpg> <C:/Users/4mama/OneDr
-ive/Dokumenty/GitHub/mip/cs16.png>]
-<1.6vsgo.jpg, id=98, 722.7pt x 361.35pt>
-File: 1.6vsgo.jpg Graphic file (type jpg)
-<use 1.6vsgo.jpg>
-Package pdftex.def Info: 1.6vsgo.jpg  used on input line 264.
-(pdftex.def)             Requested size: 289.07487pt x 144.53743pt.
- [9]
-!pdfTeX error: pdflatex (file C:/Users/4mama/OneDrive/Dokumenty/GitHub/mip/skin
+!pdfTeX error: pdflatex (file C:/Users/4mama/OneDrive/Dokumenty/GitHub/mip/prva
 .jpg): reading JPEG image failed (no JPEG header found)
  ==> Fatal error occurred, no output PDF file produced!
