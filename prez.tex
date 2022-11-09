@@ -1,0 +1,233 @@
+% Valentino Vranic
+% Metody inzinierskej prace 2012/13
+
+\documentclass{beamer}
+
+%\usetheme{Warsaw}
+%\usetheme{Antibes}
+\usetheme{JuanLesPins}
+%\usetheme{Goettingen}
+
+%\usecolortheme{seahorse}
+%\usecolortheme{dolphin}
+\usecolortheme{rose}
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_color.html
+%\usecolortheme{beaver}
+
+%\useoutertheme[]{sidebar}
+
+\setbeamercovered{transparent}
+
+\usepackage[slovak]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+
+\usepackage{listings}
+
+\lstset{language=C++,basicstyle=\fontsize{8}{9.6}\selectfont,showstringspaces=false,columns=fullflexible,identifierstyle=\ttfamily,keywordstyle=\bfseries,showstringspaces=false,columns=fullflexible}
+%\lstset{language=C,basicstyle=\fontsize{10.5}{12.6}\selectfont,identifierstyle=\ttfamily,keywordstyle=\bfseries,showstringspaces=false,columns=fixed}
+
+\def\BibTeX{\textsc{Bib}\kern-.08em\TeX} 
+
+\newcommand{\footcite}[1]{\footnote{\tiny #1}}
+\newcommand{\umlet}{.5}
+\newcommand{\emp}[1]{\textit{\alert{#1}}}
+\newcommand{\kw}[1]{\mbox{\textbf{#1}}}
+\newcommand{\id}[1]{\texttt{#1}}
+\newcommand{\stl}{\guillemotleft}
+\newcommand{\str}{\guillemotright}
+
+\newcommand{\lsti}{\lstinline[basicstyle=\fontsize{10.5}{12.1}\selectfont]}
+
+\newcommand{\ssection}[1]{
+	\section{#1}
+	\begin{frame}[fragile=singleslide]\frametitle{}
+	\Huge #1
+	\end{frame}
+}
+
+\newcommand{\ssectionn}[1]{
+	\section*{#1}
+	\begin{frame}[fragile=singleslide]\frametitle{}
+	\Huge #1
+	\end{frame}
+}
+
+\newenvironment{program}{\begin{beamercolorbox}[rounded=true,shadow=true]{block body}\vspace{-4mm}}{\vspace{-2mm}\end{beamercolorbox}}
+
+\setbeamercolor{fvystup}{fg=white,bg=black}
+\newenvironment{vystup}{\begin{beamercolorbox}[rounded=true,shadow=true]{fvystup}}{\end{beamercolorbox}}
+
+\newenvironment{poznamka}{\begin{beamercolorbox}[rounded=true,shadow=false]{block body}}{\end{beamercolorbox}}
+
+\setbeamertemplate{footline}[page number]
+{
+%\insertpagenumber
+%\begin{beamercolorbox}{section in head/foot}
+%\vskip2pt\insertnavigation{\paperwidth}\vskip2pt
+%\end{beamercolorbox}%
+}
+
+
+
+\author{Dávid Babiš}
+%\url{www.fiit.stuba.sk/~vranic}, \url{vranic@fiit.stuba.sk}}
+%{\tiny \url{www.fiit.stuba.sk/~vranic}, \url{vranic@fiit.stuba.sk}}
+\institute{
+	Ústav informatiky, informačných systémov a softvérového inžinierstva\\
+	Fakulta informatiky a informačných technológií\\
+	Slovenská technická univerzita v Bratislave}
+
+\subtitle{\vspace{3mm} Metódy inžinierskej práce 2022/2023}
+
+\title{Evolúcia počítačových hier
+}
+
+\date{\footnotesize 9. november 2020}
+
+
+
+
+\begin{document}
+
+\begin{frame}[fragile=singleslide]
+\titlepage
+\end{frame}
+
+
+\begin{frame}[fragile=singleslide]\frametitle{O čom to je}
+To, že sa počítačové hry z roka na rok menia a vylepšujú, nie je pre vás určite novinkou. Vidieť ju však v rozmedzí mnoho rokov je zaručene niečo neopísateľné. Počítačová technika ide neuveriteľne rýchlo dopredu. Tieto hry sú s nami iba pár desiatok rokov, ale za tú dobu sa stihli výrazne zmeniť. Od jednoduchých pixelov na čiernobielych monitoroch sme sa dostali k prepracovanej grafike, ktorá nielen verne zachytáva našu skutočnosť, ale dokáže vykresliť aj neskutočnosť. Napríklad fantastické svety ktoré existujú len vo videohrách.  V tomto článku sa dozviete niečo o histórii počítačových hier od roku 1947, ale aj o ich rozdelení podľa žánrov. Rozdiel je naozaj obrovský. Pamätáte si ešte niektoré staré klasiky?
+\end{frame}
+
+
+\begin{frame}[fragile=singleslide]\frametitle{Prehľad}
+\tableofcontents
+\end{frame}
+
+
+\section{História počítačových hier}
+% príkaz \ssection by vytvoril zvláštný slajd s názvom časti - v krátkych prezentáciách to prekáža, lebo oberá o čas
+
+\begin{frame}[fragile=singleslide]\frametitle{História počítačových hier}
+\begin{itemize}
+\item Prvé videohry
+	\begin{itemize}
+	\item OXO
+	\item Tennis for two
+	\end{itemize}
+\item Šesťdesiate roky
+\item Sedemdesiate roky
+\item Osememdesiate roky
+\item Deväťdesiate roky až súčastnosť
+\end{itemize}
+\end{frame}
+
+\section{Porovnanie CS 1.6 a CS:GO}
+
+\begin{frame}[fragile=singleslide]\frametitle{Porovnanie CS 1.6 a CS:GO}
+\begin{itemize}
+\item Engine
+\item Grafika -- \emph{CS 1.6}
+\item \emp{Skiny} % príkaz definovaný v preambule
+
+% odrážka s odkazom na zdroj:
+\item Bol použitý balík beamer\footcite{\url{http://www.tex.ac.uk/tex-archive/macros/latex/contrib/beamer/doc/beameruserguide.pdf}}
+\end{itemize}
+\end{frame}
+
+\section{Žánre počítačových hier}
+
+\begin{frame}[fragile=singleslide]\frametitle{Žánre počítačových hier}
+\begin{itemize}
+\item Akčné hry
+\item FPS
+\item Battle Royale
+\item Dobrodružné hry
+\item Sandbox
+\item Strategické hry
+\item RPG
+\item Simulátory
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile=singleslide]\frametitle{Slajd len s obrázkom}
+\includegraphics[scale=.3]{prva.jpg}
+\centering
+% pridajte vlastný obrázok a zrušte znák % pred príkazom \includegraphics vo formáte PDF prípadne PNG alebo JPG
+% scale určuje veľkosť obrázku
+
+{\tiny Prvá počítačová hra, zdroj: https://www.geekzone.fr/2017/01/26/tennis-for-two-higinbotham-inventa-jeu-video/}
+\end{frame}
+
+
+\begin{frame}[fragile=singleslide]\frametitle{Zvýraznenie syntaxe}
+\begin{itemize}
+\item Na zvýraznenie syntaxe stačí použiť balík listings so správne nastaveným programovacím jazykom
+\begin{lstlisting}
+int na_druhu(int i) {
+   return i * i;
+}
+
+int main() {
+   printf("%d", na_druhu(118));
+   return 0;
+}
+\end{lstlisting}
+
+\item Jazyk C++ je ešte zaujímavejší: je multiparadigmový\footcite{\url{J. O. Coplien. Multi-Paradigm Design for C++. Addison-Wesley, 1998.}}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile=singleslide]\frametitle{Rámiky}
+\begin{poznamka}
+Text možno uviesť v rámiku
+\end{poznamka}
+
+\begin{itemize}
+\item Program
+
+\begin{program}
+\begin{lstlisting}
+void main() {
+   printf("%d", na_druhu(118));
+}
+
+void na_druhu(int i) {
+   return i * i;
+}
+\end{lstlisting}
+\end{program}
+
+\item Výstup
+
+\begin{vystup}
+\begin{lstlisting}
+13924
+\end{lstlisting}
+\end{vystup}
+
+\end{itemize}
+\end{frame}
+
+
+
+\section*{Zhodnotenie a ďalšia práca}
+% hviezdička zabezpečí, aby sa táto časť neocitla v prehľade prezentácie - každá prezentácia má zhodnotenie a prehľad by sa tým zbytočne zahlcoval
+
+\begin{frame}[fragile=singleslide]\frametitle{Zhodnotenie a ďalšia práca}
+\begin{itemize}
+\item Ďakujem za pozornosť
+\item Ale vždy je čo robiť ďalej\ldots{}
+\end{itemize}
+\end{frame}
+
+
+\end{document}
+
+
+
+
+Text \end{document} za príkazom \end{document} LaTeX ignoruje, takže tu môžete odkladať veci (aj celé slajdy), ktoré nechcete vymazať, lebo ich ešte možno budete potrebovať, avšak ich v danom momente nechcete mať v slajdoch.
