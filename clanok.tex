@@ -15,7 +15,7 @@
 
 \pagestyle{headings}
 
-\title{Evolúcia počítaťových hier\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2022/23, vedenie: Ing. Ivan Kapustík}} % meno a priezvisko vyučujúceho na cvičeniach
+\title{Evolúcia počítaťových hier, videohier a ich rozdelenie podľa žánrov\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2022/23, vedenie: Ing. Ivan Kapustík}} % meno a priezvisko vyučujúceho na cvičeniach
 
 \author{Dávid Babiš\\[2pt]
 	{\small Slovenská technická univerzita v Bratislave}\\
@@ -24,7 +24,7 @@
 	}
 	
 
-\date{\small 17.10.2022} % upravte
+\date{\small 17.10.2022}
 
 
 
@@ -33,32 +33,22 @@
 \maketitle
 
 \begin{abstract}
-To, že sa počítačové hry z roka na rok menia a vylepšujú, nie je pre vás určite novinkou. Vidieť ju však v rozmedzí mnoho rokov je zaručene niečo neopísateľné. Počítačová technika ide neuveriteľne rýchlo dopredu. Tieto hry sú s nami iba pár desiatok rokov, ale za tú dobu sa stihli výrazne zmeniť. Od jednoduchých pixelov na čiernobielych monitoroch sme sa dostali k prepracovanej grafike, ktorá nielen verne zachytáva našu skutočnosť, ale dokáže vykresliť aj neskutočnosť. Napríklad fantastické svety ktoré existujú len vo videohrách.  V tomto článku sa dozviete niečo o histórii počítačových hier od roku 1947, ale aj o ich rozdelení podľa žánrov. Rozdiel je naozaj obrovský. Pamätáte si ešte niektoré staré klasiky?
+ V tomto článku sa dozviete niečo o histórii počítačových hier od roku 1947. Rozdiel je naozaj obrovský. Pozrieme sa aj na ich rozdelenie, a rozdelíme si ich do základných žánrov. Porovnáme si aj dve známe strielašky Counter-Strike 1.6 a Counter-Strike: Global Offensive. Pamätáte si ešte niektoré staré klasiky?
 \end{abstract}
 
 
 
 \section{Úvod}
-Ak sa chcete dozvedieť viac o vývine počítačových hier, zdokonaliť sa alebo ste o pc hrách ešte nič nevedeli, ste tu na správnom mieste. V tomto článku sa spoločne pozrieme na počítačové hry, ich históriu a rozdelenie podľa žánrov. Tiež si porovnáme starú a novú verziu jednej kultovej hry, a ukážeme si ako sa časom z hľadiska mechaniky a grafiky zmenila. V závere si tento pokrok ešte zhrnieme. História pc hier naznačená v úvode, je podrobnejšie vysvetlená v časti~\ref{historia}. Porovnanie zmien v konkrétnej videohre nájdete v časti~\ref{porovnanie}. 
+Ak sa chcete dozvedieť viac o vývine počítačových hier a ich rozdeleniu, ste tu na správnom mieste. V tomto článku sa spoločne pozrieme na počítačové hry, ich históriu a rozdelenie podľa žánrov. Tiež si porovnáme starú a novú verziu jednej kultovej hry, a ukážeme si ako sa časom z hľadiska mechaniky a grafiky zmenila. V závere si tento pokrok ešte zhrnieme. História pc hier naznačená v úvode, je podrobnejšie vysvetlená v časti~\ref{historia}. Porovnanie zmien v konkrétnej videohre nájdete v časti~\ref{porovnanie}. 
 Dôležité súvislosti s rozdelením videohier podľa žánrov sú uvedené v časti~\ref{zanre}.
 Záverečné poznámky prináša časť~\ref{zaver}.
 
 Evolúcia digitálnych hier je podrobnejšie vysvetlená\cite{sahay}.
 
-\section{História počítačových hier} \label{historia}
+\section{História počítačových hier a videohier} \label{historia}
+Vedeli ste že rok 1947 je považovaný za rok zvniku prvej hry?. V tejto časti si ukážeme tie najdôležitejšie a najrevolučnejšie videohry, ale aj prvé herné konzoly.
 
 \subsection{Prvé videohry}
-Rok 1947 je považovaný za rok zvniku prvej hry(obrázok~\ref{prva}, zdroj\footnote{https://newatlas.com/first-video-game/18695/}). Hrala sa na katódových tabuľkách. Vyvinuli ju Thomas Goldsmith a Estle Mann. Používala 8 katódových trubíc na simuláciu strely, ktorá smeroval na ciel. Bolo k nej pár tlačidiel ktoré menili rýchlosť a dráhu strely. Herné prvky boli nakreslené na prehľadnú fóliu, ktorá bola položená na CRT (cathode-ray tube) obrazovku.
-
-
-\begin{figure*}[tbh]
-\centering
-\includegraphics[scale=0.2]{prva.jpg}
-\caption{}
-\label{prva}
-\end{figure*}
-
-
 
 V roku 1952 vyvinul Alexander Shafto "Sandy" Douglas videohru OXO(obrázok~\ref{oxo}, zdroj\footnote{http://www.warpedfactor.com/2015/09/video-game-firsts-oxo.html}). Bola to grafická verzia známej hry piškvorky. Hra bola nainštalovaná na elektrónkovom počítači EDSAC, ktorý bežne používal dierne pásky. Zobrazenie bitmapy bolo 35×16 pixelov. Hralo sa len proti umelej inteligencii. Hra sa ovládala pomocou vytáčacieho telefónu.
 
@@ -69,7 +59,7 @@ V roku 1952 vyvinul Alexander Shafto "Sandy" Douglas videohru OXO(obrázok~\ref{
 \label{oxo}
 \end{figure*}
 
-Ďalšia videohra sa nazýva Tennis For Two. Vynaliezol ju William Higinbotham v roku 1958. Hra spočívala v tom, že na obrazovke bol zobrazený zboku tenisový kurt(obrázok~\ref{tenis}, zdroj\footnote{https://www.geekzone.fr/2017/01/26/tennis-for-two-higinbotham-inventa-jeu-video/}), a dvaja hráči pomocou dvoch veľkých ovládačov(obrázok~\ref{tenis2}, zdroj\footnote{https://www.evilmadscientist.com/2008/resurrecting-tennis-for-two-a-video-game-from-1958/}) si medzi sebou odrážali lotpu. Na ovládačoch boli dve tlačidlá. Jeden pre ovládanie trajektórie a druhý pre odpálenie lopty.
+Ďalšia videohra sa nazýva Tennis For Two. Vynašiel ju William Higinbotham v roku 1958. Hra spočívala v tom, že na obrazovke bol zobrazený zboku tenisový kurt(obrázok~\ref{tenis}, zdroj\footnote{https://www.geekzone.fr/2017/01/26/tennis-for-two-higinbotham-inventa-jeu-video/}), a dvaja hráči pomocou dvoch veľkých ovládačov(obrázok~\ref{tenis2}, zdroj\footnote{https://www.evilmadscientist.com/2008/resurrecting-tennis-for-two-a-video-game-from-1958/}) si medzi sebou odrážali lotpu. Na ovládačoch boli dve tlačidlá. Jeden pre ovládanie trajektórie a druhý pre odpálenie lopty.
 
 \begin{figure*}[tbh]
 \centering
@@ -85,58 +75,55 @@ V roku 1952 vyvinul Alexander Shafto "Sandy" Douglas videohru OXO(obrázok~\ref{
 \label{tenis2}
 \end{figure*}
 
+\subsection{Šesťdesiate a sedemdesiate roky} \label{sedemdesiate}
 
-\subsection{Šesťdesiate roky} \label{sestdesiate}
 Veľa hier zo šesťdesiatych rokov bolo vytvorených študentmi na univerzitách v Amerike. 
 
-V roku 1961 vznikla hra Spacewar
+V roku 1961 vznikla hra Spacewar. Hra bola pre dvoch hráčov a každý z nich ovládalvlastnú vesmírnu loď, ktorá dokázala strielať rakety. Cieľom bolo zničiť druhého hráča.
 
+V roku 1969 vytvoril Ralph Baer prototyp hernej konzoly. Dala sa pripojiť k televízii a bolo v nej pár hier. Spoločnosť Magnavox túto konzolu odkúpila a v roku 1972 ju vydala. Volala sa Odyssey.
 
-\subsection{Sedemdesiate roky} \label{sedemdesiate}
+Nolan Bushnell a Ted Dabney vytvorili v roku 1971 verziu hry Spacewar na hracom automate. Volala sa Computer Space. Odkúpila ju spoločnosť Nutting Associates a začala vyrábať automaty. Hra bola veľmi obtiažna a preto nemala až tak veľký úspech.
+
+V roku 1972 založil Nolan Bushnell spoločnosť Atari a vytvoril hru Pong. Hra bola pre dvoch hráčov, každý ovládal jednu plošinu, ktoré ležali oproti sebe. Pomocou plošín odrážali loptičku. Cieľom hry bolo odraziť loptičku tak, aby ju druhý hráč nechytil. "Pong bola jednoduchá hra, čo bola jednoznačná konkurenčná výhoda pre arkádové hry, ktoré sa často umiestňovali v baroch a reštauráciách, kde mohol patrón hrať s drinkom v jednej ruke."\cite{Lowood}
+
+V roku 1976 vyšla hra Death Race. Cieľom bolo autom zrážať goblinov. Death Race vyvolala rozruch v spoločnosti kvôli násiliu.
+
+Spoločnosť Taito Vydala v roku 1978 arkádu Space Invaders. Bola to pevná strieľačka. Cieľom hry bolo zastreliť všetkých mimozenšťanov. Hráč strieľal z dela, ktoré sa pohybovalo v spodnej časti obrazovky. Touto hrou začína v USA zlatý vek herných automatov.
+
+V roku 1979 vydala spoločnosť Atari populárnu hru Asteroids. Hráč ovládal vesmírnu loď a jeho cieľom bolo prežiť čo najdlhšie, a to pomocou strieľania asteroidov.
 
 
 
 \subsection{Osemdesiate roky} \label{osemdesiate}
+V roku 1980 prišla na svet hra Battlezone, využívajúca vektorovú grafiku k skutočnému 3D zobrazeniu. Hráč riadil tank pomocou joystickov. Cieľom hry bolo zničiť ostatné tanky.
 
+Japonský vydavaťeľ Namco vydal v roku 1980 hru Pac-Man. Išlo o veľmi obľúbenú arkádu, a stala sa jednou z najdlhšie fungujúcich a najpredávanejších videohier na svete. Hráč ovládal žltú guličku, pohyboval sa v bludisku a jeho cieľom bolo zjesť všetky bodky rozmiestnené po bludisku. Nepriateľom boli štyria duchovia, ktorí keď sa dotkli hráča tak hra skončila.
 
+3D Monster Maze je hororová počítačová hra na prežitie vydaná vydavateľom JK Greye v roku 1981. Hráč mal za úlohu utekať pred dinosaurom po bludisku, za čo získaval body. Obtiažnosť sa postupne zvyšovala a keď dinosaurus chytil hráča hra sa skončila.
+
+V roku 1983 vydala spoločnosť Advanced Microcomputer Systems hru Dragon's Lair. Hráč hral za hrdinskú postavu Dirk the Daring. Cieľom hry bolo zachrániť princeznú Daphne pred zlým drakom Singe. Príbeh bol dopredu daný a hráč mal obmedzený vplyv na príbeh. Hra pozostávala z animovaných scén, kde mal hráč v správnom čase vykonať nejakú akciu stlačením tlačidla.
 
 \subsection{Deväťdesiate roky až súčasnosť} \label{devatdesiate}
+V roku 1992 vyšla Dune 2, hra, ktorá otvorila cestu pre ďalšie neskôr veľmi známe hry ako Command and Conquer či Warcraft. Dune 2 vydala spoločnosť Virgin Interactive. Hráč prevezme úlohu veliteľa jedného z troch medziplanetárnych domov, Atreidov, Harkonnenov alebo Ordovcov, s cieľom získať kontrolu nad planétou Arrakis.
 
+Ďalej sa už akoby roztrhlo vrece s počítačovými hrami, a pribúda ich neskutočné množstvo.
 
 \section{Porovnanie CS 1.6 a CS:GO} \label{porovnanie}
 
-Akčnú FPS hru Counter-Strike asi netreba nikomu predstavovať. Legendárna hra ktorú si obľúbili milióny hráčov vznikla ako modifikácia obľúbenej hry Half-Life ešte v roku 1999. Od tej doby hra prešla mnohými úpravami. Ako samostatná hra vyšla v roku 2003 s názvom Counter-Strike 1.6 . Poďme sa teda spoločne pozrieť ako sa zmenila nielen po grafickej stránke v priebehu rokov. Budeme porovnávať jej úplne prvú verziu CS 1.6, s tou najnovšou, a to je Counter-Strike: Global Offensive (2012). Tak poďme sa nato pozrieť. Obrázok s logom CS 1.6 (obrázok~\ref{f:cs1.6}, zdroj\footnote{zdroj:https://sk-sk.facebook.com/CS1.6CTF/}).
+Akčnú FPS hru Counter-Strike asi netreba nikomu predstavovať. Legendárna hra ktorú si obľúbili milióny hráčov vznikla ako modifikácia obľúbenej hry Half-Life ešte v roku 1999. Od tej doby hra prešla mnohými úpravami. Ako samostatná hra vyšla v roku 2003 s názvom Counter-Strike 1.6 . Poďme sa teda spoločne pozrieť ako sa zmenila nielen po grafickej stránke v priebehu rokov. Budeme porovnávať jej úplne prvú verziu CS 1.6, s tou najnovšou, a to je Counter-Strike: Global Offensive (2012). Tak poďme sa nato pozrieť.
 
-\begin{figure*}[tbh]
-\centering
-\includegraphics[scale=0.8]{cs16.png}
-\caption{CS 1.6 logo}
-\label{f:cs1.6}
-\end{figure*}
 
 \subsection{Engine} \label{porovnanie:engine}
 Zatiaľ čo 1.6 bežala na engine GoldSrc, CS:GO beží na engine Source od Valve Coproration. Source 3D engine bol vytvorený spoločnosťou Valve Software v roku 2004. Primárne bol určený pre hru Half-Life 2. Jeho základom bol predchádzajúci engine GoldSrc, čo bola silne upravená verzia Quake enginu.
- 
 
 
 Enginy a všetky verzie Counter-Strikeu:
 \begin{enumerate}
 \item Engine GoldSrc
 	\begin{enumerate}
-	\item Couter-Strike Beta 1
-	\item Couter-Strike Beta 2
-	\item Couter-Strike Beta 3
-	\item Couter-Strike Beta 4
-	\item Couter-Strike Beta 5
-	\item Couter-Strike Beta 6
-	\item Couter-Strike Beta 7
-	\item Couter-Strike 1.0
-	\item Couter-Strike 1.1
-	\item Couter-Strike 1.2
-	\item Couter-Strike 1.3
-	\item Couter-StrikeCS 1.4
-	\item Couter-Strike 1.5
-	\item Couter-Strike 1.6
+	\item Couter-Strike Beta 1 - 7
+	\item Couter-Strike 1.0 - 1.6
 	\item Couter-Strike: Condition Zero (CS:CZ)
 	\end{enumerate}
 \item Engine Source
@@ -150,7 +137,7 @@ Enginy a všetky verzie Counter-Strikeu:
 
 \subsection{Grafika} \label{porovnanie:grafika}
 
-Už na prvý pohľad vieme rozlíšiť CS 1.6 a CS:GO. Grafika 1.6 bola na svoju dobu veľmi pokroková. V denšnej dobe je grafika  CS:GO na vysokej úrovni a dokáže konkurovať aj ostatným kvalitným videohrám. Dnešná grafika je už skoro na nerozoznanie od reality, ale je to skutočne pravda? Toto isté si hovorili aj hráči na konci deväťdesiatych rokov keď zbadali CS 1.6 . Uvidíme ako to bude s hernou grafikou v budúcnosti. Pri súčašných technológiách ako je napríklad virtuálna realita je len otázkou času, kedy naozaj nerozoznáme hru od reality. Určite sa máme na čo tešiť. Obrázok s porovnaním grafiky CS 1.6 a CS:GO (obrázok~\ref{f:grafika}, zdroj\footnote{f}).
+Už na prvý pohľad vieme rozlíšiť CS 1.6 a CS:GO. Grafika 1.6 bola na svoju dobu veľmi pokroková. V denšnej dobe je grafika  CS:GO na vysokej úrovni a dokáže konkurovať aj ostatným kvalitným videohrám. Dnešná grafika je už skoro na nerozoznanie od reality, ale je to skutočne pravda? Toto isté si hovorili aj hráči na konci deväťdesiatych rokov keď zbadali CS 1.6 . Uvidíme ako to bude s hernou grafikou v budúcnosti. Pri súčašných technológiách ako je napríklad virtuálna realita je len otázkou času, kedy naozaj nerozoznáme hru od reality. Určite sa máme na čo tešiť. Obrázok s porovnaním grafiky CS 1.6 a CS:GO (obrázok~\ref{f:grafika}, zdroj\footnote{https://sazkaeleague.cz/article/video-herni-predmet-nebo-deset-fabii-cinsky-sberatel-skinu-ma-jasno}).
 
 \begin{figure*}[tbh]
 \centering
@@ -161,7 +148,7 @@ Už na prvý pohľad vieme rozlíšiť CS 1.6 a CS:GO. Grafika 1.6 bola na svoju
 
 \subsection{Skiny} \label{porovnanie:skiny}
 
-Zatiaľ čo CS 1.6 nemala mnoho skinov na zbrane a boli väčšinou iba výsadov niektorých serverov, CS:GO ich má tisíce a stále pribúdajú. Ich hodnota sa vyjadruje v reálnych peniazoch, ale pritom ide o virtuálnu položku v počítači. Ich cena závisí od množstva existijúcich skinov alebo od krásy jednotlivého skinu. Vzácnych skinov je málo a preto sú aj oveľa drahšie. Skiny sa dajú kupvať a predávať anonymne cez virtuálny marketplace Steam market, alebo aj vymienať s ostatnými hráčmi.
+Zatiaľ čo CS 1.6 nemala mnoho skinov\footnote{vzhľadov na zbrane} na zbrane a boli väčšinou iba výsadov niektorých serverov, CS:GO ich má tisíce a stále pribúdajú. Ich hodnota sa vyjadruje v reálnych peniazoch, ale pritom ide o virtuálnu položku v počítači. Ich cena závisí od množstva existijúcich skinov alebo od krásy jednotlivého skinu. Vzácnych skinov je málo a preto sú aj oveľa drahšie. Skiny sa dajú kupvať a predávať anonymne cez virtuálny obchod Steamu, alebo aj vymienať s ostatnými hráčmi.
 Skiny sa dajú zadarmo získať buď z dropov po každej hre, alebo si ich musí hráč kúpiť cez Steam market alebo od iného hráča. Skiny môže hráč ešte získať z debien, na ktorých odomknutie je treba virtuílny kľúč, ktorý ale nieje zadarmo. Hráč si ho musí kúpiť. Otvorenie debny funguje na princípe herných automatov, s tým rozdielom že hráč vždy dostane nejaký skin. Ale nie každý skin je vzácny a tým pádom aj dosť drahý na to aby hráč získal nejaký ten profit z otvorenia debny. Otvorenie jednej debny stojí okolo troch eur. A je veľmi malá šanca aby hráč získal z debny skin ktorý je drahší ako náklady na otvorenie jednej debny, a ešte menšia šanca aby získal niečo veľmi vzácne. Je veľmi ľahké na tom prerobiť, a preto by mal každý hráč zvážiť či mu peniaze stoja za to riziko. Tieto virtuálne kasína sú nebezpečné.  Obrázok s ukážkou jedného skinu (obrázok~\ref{f:skiny}, zdroj\footnote{https://sazkaeleague.cz/article/video-herni-predmet-nebo-deset-fabii-cinsky-sberatel-skinu-ma-jasno}).
 
 \begin{figure*}[tbh]
@@ -178,6 +165,13 @@ Skiny sa dajú zadarmo získať buď z dropov po každej hre, alebo si ich musí
 Základným problémom je že hry majú mnoho podôb a niekedy je ťažké ich rozlíšiť. Preto má vačšina hier priradených viac žánrov zároveň.
 
 Najprv sa pozrieme na akčné hry(časť~\ref{zanre:akcne}), ďalej na FPS (časť~\ref{zanre:fps}) a Battle royale (časť~\ref{zanre:battleroyale}), potom na dobrodružné hry(časť~\ref{zanre:adventure}), a ešet pár ďalších, ako sú Sandbox (časť~\ref{zanre:sandbox}), strategické hry (časť~\ref{zanre:strategicke}), RPG (časť~\ref{zanre:rpg}), a nakoniec simulátory (časť~\ref{zanre:simulatory}).
+
+\begin{figure*}[h]
+\centering
+\includegraphics[scale=0.4]{Screenshot_4.jpg}
+\caption{Diagram rozdelenia PC hier podľa žánrov}
+\label{f:rpg}
+\end{figure*}
 
 
 \subsection{Akčné hry} \label{zanre:akcne}
@@ -207,9 +201,9 @@ Príklady FPS hier:
 \item Séria videoheir Halo
 \end{itemize}
 
-\begin{figure*}[tbh]
+\begin{figure*}[ht]
 \centering
-\includegraphics[scale=0.2]{csgo.jpg}
+\includegraphics[scale=0.15]{csgo.jpg}
 \caption{Screenshot z hry Counter-Strike: Global Offensive}
 \label{f:csgo}
 \end{figure*}
@@ -228,9 +222,9 @@ Príklady Battle royale hier:
 \item Battlefield V
 \end{itemize}
 
-\begin{figure*}[tbh]
+\begin{figure*}[h]
 \centering
-\includegraphics[scale=0.15]{fortnite.jpg}
+\includegraphics[scale=0.10]{fortnite.jpg}
 \caption{Screenshot z hry Fortnite}
 \label{f:fortnite}
 \end{figure*}
@@ -291,13 +285,29 @@ Príklady strategických hier:
 
 \begin{figure*}[tbh]
 \centering
-\includegraphics[scale=0.25]{coc.jpg}
+\includegraphics[scale=0.20]{coc.jpg}
 \caption{Screenshot z hry Clash of Clans}
 \label{f:coc}
 \end{figure*}
 
 \subsection{RPG} \label{zanre:rpg}
 
+V RPG hrách (Role Playing Games) sa hráč zväčša pohybuje v rozsiahlej krajine plnej postáv známych z fantasy alebo sci-fi literatúry či rozprávok. Ich hrdinovia, ktorými môžu byť ľudia s bežnými  zamestnaniami, ale aj dobrodruhovia, rytieri či nadprirodzené bytosti, sa v priebehu hry vyvíjajú a v závislosti od vykonávanej činnosti sa zlepšujú ich zručnosti a schopnosti a zväčšuje majetok.(obrázok~\ref{f:rpg})
+
+Príklady RPG hier:
+\begin{itemize}
+\item The Witcher
+\item Elden Ring
+\item Diablo 4
+\item Fallout
+\end{itemize}
+
+\begin{figure*}[h]
+\centering
+\includegraphics[scale=0.15]{rpg.jpg}
+\caption{Screenshot z hry The Witcher}
+\label{f:rpg}
+\end{figure*}
 
 
 \subsection{Simulátory} \label{zanre:simulatory}
@@ -324,6 +334,12 @@ Príklady simulátorov:
 
 
 \section{Záver} \label{zaver} % prípadne iný variant názvu
+
+To, že sa počítačové hry z roka na rok menia a vylepšujú, nie je pre vás určite novinkou. Vidieť ich však v rozmedzí mnoho rokov je zaručene niečo neopísateľné. Počítačová technika ide neuveriteľne rýchlo dopredu. Tieto hry sú s nami iba pár desiatok rokov, ale za tú dobu sa stihli výrazne zmeniť. Od jednoduchých pixelov na čiernobielych monitoroch sme sa dostali k prepracovanej grafike, ktorá nielen verne zachytáva našu skutočnosť, ale dokáže vykresliť aj neskutočnosť. Napríklad fantastické svety ktoré existujú len vo videohrách.
+
+
+Hry majú mnoho podôb a niekedy je ťažké ich rozlíšiť. Väčšina hier má viac žánrov zároveň. Je ťažké vytvoriť hru len s jedným žánrom. Vždy sa v nej nájdu prvky aj z ostatných. Niekedy viac, inokedy menej.
+
 
 
 %\input{example.tex}
